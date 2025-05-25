@@ -1,0 +1,9 @@
+!.htaccess
+!.gitignore
+!.gitmodules
+.*
+_*
+~*
+*.zip
+*/*/ci.sh
+
