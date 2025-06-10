@@ -1,0 +1,44 @@
+<?php
+/** op-skeleton-2030:/asset/init/guidance.phtml
+ *
+ * @genesis    2024-11-24  op-skeleton-2020
+ * @copied     2025-06-08  op-skeleton-2030
+ * @version    1.0
+ * @package    op-skeleton-2030
+ * @author     Tomoaki Nagahara
+ * @copyright  Tomoaki Nagahara All right reserved.
+ */
+/* @var $usage string */
+?>
+<html>
+	<head>
+	<style>
+	body * {
+		margin:    0;
+		padding:   0.1em 0;
+		font-size: 12pt;
+		line-height: 1.15;
+		_border: 1px solid #000;
+	}
+
+	h1 {
+		margin:    0;
+		font-size: 120%;
+	}
+
+	h1 ~ * {
+		margin:    1em;
+	}
+
+	code {
+		line-height: 1.3;
+	}
+
+	</style>
+	</head>
+	<body>
+		<h1>Git submodules has not been initialized</h1>
+		<p>Please enter the following command:</p>
+		<pre><code><?php echo trim($usage) ?></code></pre>
+	</body>
+</html>
