@@ -1,3 +1,6 @@
 [submodule "asset/core"]
 	path = asset/core
 	url = https://github.com/TomoakiNagahara/op-core-8.git
+[submodule "asset/bootstrap"]
+	path = asset/bootstrap
+	url = https://github.com/TomoakiNagahara/op-asset-bootstrap2.git
