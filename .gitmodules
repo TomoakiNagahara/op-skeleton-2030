@@ -4,3 +4,6 @@
 [submodule "asset/bootstrap"]
 	path = asset/bootstrap
 	url = https://github.com/TomoakiNagahara/op-asset-bootstrap2.git
+[submodule "asset/template"]
+	path = asset/template
+	url = https://github.com/TomoakiNagahara/op-asset-template.git
