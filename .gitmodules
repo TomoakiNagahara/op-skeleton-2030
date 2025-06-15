@@ -10,3 +10,6 @@
 [submodule "asset/unit/app"]
 	path = asset/unit/app
 	url = https://github.com/TomoakiNagahara/op-unit-app.git
+[submodule "asset/unit/ci"]
+	path = asset/unit/ci
+	url = https://github.com/TomoakiNagahara/op-unit-ci.git
