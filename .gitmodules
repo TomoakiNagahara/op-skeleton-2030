@@ -7,3 +7,6 @@
 [submodule "asset/template"]
 	path = asset/template
 	url = https://github.com/TomoakiNagahara/op-asset-template.git
+[submodule "asset/unit/app"]
+	path = asset/unit/app
+	url = https://github.com/TomoakiNagahara/op-unit-app.git
