@@ -13,3 +13,6 @@
 [submodule "asset/unit/ci"]
 	path = asset/unit/ci
 	url = https://github.com/TomoakiNagahara/op-unit-ci.git
+[submodule "asset/unit/cd"]
+	path = asset/unit/cd
+	url = https://github.com/TomoakiNagahara/op-unit-cd.git
