@@ -19,3 +19,6 @@
 [submodule "asset/unit/git"]
 	path = asset/unit/git
 	url = https://github.com/TomoakiNagahara/op-unit-git.git
+[submodule "asset/unit/notice"]
+	path = asset/unit/notice
+	url = https://github.com/TomoakiNagahara/op-unit-notice.git
