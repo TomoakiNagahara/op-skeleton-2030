@@ -6,4 +6,5 @@ _*
 ~*
 *.zip
 */*/ci.sh
+asset/document/*
 
