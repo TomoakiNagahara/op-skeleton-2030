@@ -29,6 +29,16 @@ define('_OP_APP_START_', microtime(true));
  */
 $_request_uri = $_SERVER['REQUEST_URI'] ?? null;
 
+//	...
+if( ($_SERVER['REQUEST_URI'] ?? null) === '/favicon.ico'){
+	//	...
+	if( file_exists('favicon.ico') ){
+		echo file_get_contents('favicon.ico');
+	}
+	//	...
+	return;
+}
+
 /**	Set the application root path.
  *
  */
