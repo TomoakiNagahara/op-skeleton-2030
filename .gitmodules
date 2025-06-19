@@ -31,3 +31,6 @@
 [submodule "asset/layout/flexbox"]
 	path = asset/layout/flexbox
 	url = https://github.com/TomoakiNagahara/op-layout-flexbox.git
+[submodule "asset/unit/webpack"]
+	path = asset/unit/webpack
+	url = https://github.com/TomoakiNagahara/op-unit-webpack.git
