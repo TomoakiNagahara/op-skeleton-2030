@@ -28,3 +28,6 @@
 [submodule "asset/unit/layout"]
 	path = asset/unit/layout
 	url = https://github.com/TomoakiNagahara/op-unit-layout.git
+[submodule "asset/layout/flexbox"]
+	path = asset/layout/flexbox
+	url = https://github.com/TomoakiNagahara/op-layout-flexbox.git
