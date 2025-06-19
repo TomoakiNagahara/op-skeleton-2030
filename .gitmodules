@@ -40,3 +40,6 @@
 [submodule "asset/unit/dump"]
 	path = asset/unit/dump
 	url = https://github.com/TomoakiNagahara/op-unit-dump.git
+[submodule "asset/webpack/js"]
+	path = asset/webpack/js
+	url = https://github.com/TomoakiNagahara/op-webpack-js.git
