@@ -43,3 +43,6 @@
 [submodule "asset/webpack/js"]
 	path = asset/webpack/js
 	url = https://github.com/TomoakiNagahara/op-webpack-js.git
+[submodule "asset/webpack/css"]
+	path = asset/webpack/css
+	url = https://github.com/TomoakiNagahara/op-webpack-css.git
