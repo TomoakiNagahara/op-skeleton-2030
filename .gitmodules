@@ -25,3 +25,6 @@
 [submodule "asset/unit/router"]
 	path = asset/unit/router
 	url = https://github.com/TomoakiNagahara/op-unit-router.git
+[submodule "asset/unit/layout"]
+	path = asset/unit/layout
+	url = https://github.com/TomoakiNagahara/op-unit-layout.git
