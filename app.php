@@ -30,10 +30,10 @@ define('_OP_APP_START_', microtime(true));
 $_request_uri = $_SERVER['REQUEST_URI'] ?? null;
 
 //	...
-if( ($_SERVER['REQUEST_URI'] ?? null) === '/favicon.ico'){
+if( $_request_uri === '/favicon.ico' or strpos($_request_uri, '/.well-known/') === 0 ){
 	//	...
-	if( file_exists('favicon.ico') ){
-		echo file_get_contents('favicon.ico');
+	if( file_exists($path = ".{$_request_uri}") ){
+		echo file_get_contents($path);
 	}
 	//	...
 	return;
