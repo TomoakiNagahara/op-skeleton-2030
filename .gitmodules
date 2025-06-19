@@ -37,3 +37,6 @@
 [submodule "asset/module/webpack"]
 	path = asset/module/webpack
 	url = https://github.com/TomoakiNagahara/op-module-webpack.git
+[submodule "asset/unit/dump"]
+	path = asset/unit/dump
+	url = https://github.com/TomoakiNagahara/op-unit-dump.git
