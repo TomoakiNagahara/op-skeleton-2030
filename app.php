@@ -27,7 +27,9 @@ define('_OP_APP_START_', microtime(true));
  *
  * @var string $_request_uri
  */
-$_request_uri = $_SERVER['REQUEST_URI'] ?? null;
+if(!$_request_uri = $_SERVER['REQUEST_URI'] ?? null ){ // HTTP or Shell
+	$_request_uri = $_SERVER['PWD'].'/'.basename($_SERVER['PATH_TRANSLATED']);
+}
 
 //	...
 if( $_request_uri === '/favicon.ico' or strpos($_request_uri, '/.well-known/') === 0 ){
