@@ -25,10 +25,25 @@ namespace OP;
  */
 define('_OP_APP_BRANCH_', '2030');
 
-//	Calc App ID.
-$app_id = defined('_IS_CI_') ? 'CI' : substr(md5(__FILE__), 0, 10);
+/**	Generate AppID
+ *
+ * Generate an AppID based on $seed.
+ * Set to an extremely long string.
+ * The longer it is the harder it is to predict.
+ *
+ * @var string $seed
+ */
+$seed = __FILE__;
+if( strpos($seed, '/var/') !== false ){
+	echo "Seed is expected, please change it: {$seed}" . PHP_EOL;
+	exit(__LINE__);
+}
+$app_id = defined('_IS_CI_') ? 'CI' : substr(md5($seed), 0, 10);
 
 /**	AppID
+ *
+ * The AppID is used to encrypt the cookie.
+ * Do not expose it to end users.
  *
  * @var string
  */
