@@ -26,5 +26,5 @@ namespace OP;
 return [
 	'title'     => 'The onepiece-framework app skeleton '._OP_APP_BRANCH_,
 	'copyright' => 'Copyright 2009 All right reserved.',
-	'app.phtml' =>  Env::isAdmin() ? true: false,
+	'app.phtml' =>  OP::isAdmin() ? true: false,
 ];
