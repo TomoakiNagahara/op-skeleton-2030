@@ -26,7 +26,7 @@ namespace OP;
 define('_OP_APP_BRANCH_', '2030');
 
 //	Calc App ID.
-$app_id = substr(md5(__FILE__), 0, 10);
+$app_id = defined('_IS_CI_') ? 'CI' : substr(md5(__FILE__), 0, 10);
 
 /**	AppID
  *
