@@ -46,3 +46,6 @@
 [submodule "asset/webpack/css"]
 	path = asset/webpack/css
 	url = https://github.com/TomoakiNagahara/op-webpack-css.git
+[submodule "asset/develop"]
+	path = asset/develop
+	url = https://github.com/TomoakiNagahara/op-module-develop.git
