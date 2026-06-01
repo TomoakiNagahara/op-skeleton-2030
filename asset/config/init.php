@@ -27,5 +27,6 @@ return [
 	'ssh'    =>  1,
 	'host'   => 'arch',
 	'path'   => '~/repo/',
+	'scheme' => 'ssh',
 	*/
 ];
