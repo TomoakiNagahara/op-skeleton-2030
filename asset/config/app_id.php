@@ -24,7 +24,12 @@ namespace OP;
  * The longer the string, the harder it is to predict.
  * We recommend including non-alphabetic characters such as kanji or emoji.
  */
-$seed = require_once(__DIR__.'/app_id_seed.php');
+if( file_exists(__DIR__.'/_app_id_seed.php') ){
+	$seed = require_once(__DIR__.'/_app_id_seed.php');
+}else{
+	$seed = require_once(__DIR__.'/app_id_seed.php');
+}
+
 
 //	Check the length of the seed string.
 if( $seed and strlen($seed) < 32 ){
